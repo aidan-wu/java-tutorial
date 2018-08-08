@@ -5,7 +5,7 @@ public class Application {
 		String input = "I live in Garden City";
 		
 		for(int i=input.length(); i>0 ; i--) {
-			System.out.println(i);
+			//System.out.println(i);
 			System.out.print(input.substring(i-1, i));
 		}
 		
